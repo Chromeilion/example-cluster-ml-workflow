@@ -14,16 +14,7 @@ class TrainerArgsSettings(BaseSettingsConfig, TrainingArguments):
     """
     Arguments that get passed to the Hugging Face Trainer.
     """
-#    output_dir: str
-#    seed: int
-#    learning_rate: float
-#    per_device_eval_batch_size: int
-#    per_device_train_batch_size: int
-#    warmup_steps: int
-#    num_train_epochs: int
-#    eval_steps: int
-#    ddp_find_unused_parameters: bool
-#    evaluation_strategy: str
+    ...
 
 
 class Settings(BaseSettingsConfig):
